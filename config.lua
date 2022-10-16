@@ -50,7 +50,7 @@ Config.DoorList['configname-identifier'] = {
 
 Config.DoorStates = {}
 Config.DoorList = {
-	{
+	--[[{
 		objName = 'hei_v_ilev_bk_gate2_pris',
 		objCoords  = vec3(261.83, 221.39, 106.41),
 		textCoords = vec3(261.83, 221.39, 106.41),
@@ -205,10 +205,10 @@ Config.DoorList = {
 		locked = true,
 		pickable = false,
 		distance = 10
-	},
+	},]]
 	------------------------------------------Always add new doors below this line for your bank robberies to work!!!---------------------------------
 				------------------------------------------End Fixed Doors!!!---------------------------------
-	{
+	--[[{
 		textCoords = vec3(434.81, -981.93, 30.89),
 		authorizedJobs = { 'police' },
 		locked = false,
@@ -275,8 +275,8 @@ Config.DoorList = {
 	{
 		objName = 'v_ilev_ph_gendoor002',
 		objYaw = -180.0,
-		objCoords  = vec3(447.72, -980.17, 30.81),
-		textCoords = vec3(447.72, -980.17, 30.81),
+		objCoords  = vec3(458.13, -990.58, 30.69),
+		textCoords = vec3(458.14, -989.73, 30.69),
 		authorizedJobs = { 'police' },
 		locked = true,
 		pickable = false,
@@ -1187,5 +1187,5 @@ Config.DoorList = {
 		locked = true,
 		pickable = false,
 		distance = 2.0
-	},
+	},]]
 }
