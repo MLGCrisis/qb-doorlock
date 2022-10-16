@@ -241,3 +241,33 @@ Config.DoorList['lspd-roof'] = {
     objYaw = 89.999977111816,
     objName = -692649124,
 }
+
+-- back-gate created by pamel
+Config.DoorList['lspd-back-gate'] = {
+    doorLabel = 'Back Gate',
+    doorType = 'sliding',
+    objCoords = vec3(488.894806, -1017.211975, 27.149349),
+    fixText = false,
+    distance = 10,
+    authorizedJobs = { ['police'] = 0 },
+    locked = true,
+    doorRate = 1.0,
+    objName = -1603817716,
+    objYaw = 90.0,
+}
+
+
+
+-- boom-gates created by pamel
+Config.DoorList['lspd-boom-gates'] = {
+    authorizedJobs = { ['police'] = 0 },
+    locked = true,
+    distance = 10,
+    doorType = 'doublesliding',
+    doorLabel = 'Boom Gates',
+    doors = {
+        {objName = -1868050792, objYaw = 270.0, objCoords = vec3(410.025787, -1024.225952, 29.220221)},
+        {objName = -1635161509, objYaw = 270.0, objCoords = vec3(410.025787, -1024.219971, 29.220200)}
+    },
+    doorRate = 1.0,
+}
