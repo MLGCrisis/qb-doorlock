@@ -10,7 +10,7 @@ Config.DoorList['pillbox-chief'] = {
     objCoords = vec3(336.866486, -592.578796, 43.433910),
     locked = true,
     objName = 854291622,
-    doorLabel = 'Chief's Office',
+    doorLabel = 'Chief\'s Office',
     doorRate = 1.0,
 }
 
