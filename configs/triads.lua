@@ -44,3 +44,18 @@ Config.DoorList['triads-triads-staff-left'] = {
     fixText = false,
     objName = 693644064,
 }
+
+-- triads-hallway created by GamerGirlie79
+Config.DoorList['triads-triads-hallway'] = {
+    locked = true,
+    doors = {
+        {objName = 1403720845, objYaw = 0.0, objCoords = vec3(-820.312622, -703.126343, 28.205597)},
+        {objName = 75593271, objYaw = 0.0, objCoords = vec3(-822.314270, -703.126343, 28.205597)}
+    },
+    distance = 2,
+    authorizedGangs = { ['triads'] = 0 },
+    doorRate = 1.0,
+    pickable = true,
+    doorLabel = 'Triads Hallway',
+    doorType = 'double',
+}
