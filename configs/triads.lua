@@ -59,3 +59,18 @@ Config.DoorList['triads-triads-hallway'] = {
     doorLabel = 'Triads Hallway',
     doorType = 'double',
 }
+
+-- boss-office created by GamerGirlie79
+Config.DoorList['triads-boss-office'] = {
+    doorType = 'door',
+    pickable = true,
+    objYaw = 0.0,
+    locked = true,
+    objCoords = vec3(-822.034485, -703.127563, 32.486649),
+    distance = 2,
+    authorizedGangs = { ['triads'] = 0 },
+    doorRate = 1.0,
+    doorLabel = 'Boss Office',
+    fixText = false,
+    objName = 693644064,
+}
